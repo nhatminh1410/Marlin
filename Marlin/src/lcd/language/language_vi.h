@@ -32,7 +32,7 @@ namespace Language_vi {
   using namespace Language_en; // Inherit undefined strings from English
 
   constexpr uint8_t    CHARSIZE                            = 2;
-  PROGMEM Language_Str LANGUAGE                            = _UxGT("Vietnamese");
+  PROGMEM Language_Str LANGUAGE                            = _UxGT("Tiếng Việt");
 
   PROGMEM Language_Str WELCOME_MSG                         = MACHINE_NAME _UxGT(" Sẵn sàng.");              // Ready
   PROGMEM Language_Str MSG_BACK                            = _UxGT("Trở lại");                              // Back
@@ -46,7 +46,7 @@ namespace Language_vi {
   PROGMEM Language_Str MSG_MEDIA_USB_FAILED                = _UxGT("USB khởi thất bại");
   PROGMEM Language_Str MSG_LCD_ENDSTOPS                    = _UxGT("Công tắc");                             // Endstops - công tắc hành trình
   PROGMEM Language_Str MSG_LCD_SOFT_ENDSTOPS               = _UxGT("Công tắc mềm");                         // soft Endstops
-  PROGMEM Language_Str MSG_MAIN                            = _UxGT("Chính");                                // Main
+  PROGMEM Language_Str MSG_MAIN                            = _UxGT("Menu Chính");                                // Main
   PROGMEM Language_Str MSG_ADVANCED_SETTINGS               = _UxGT("Thiết lập cấp cao");                    // Advanced Settings
   PROGMEM Language_Str MSG_CONFIGURATION                   = _UxGT("Cấu hình");                             // Configuration
   PROGMEM Language_Str MSG_AUTOSTART                       = _UxGT("Khởi chạy tự động");                    // Autostart
@@ -216,8 +216,8 @@ namespace Language_vi {
   PROGMEM Language_Str MSG_FLOW                            = _UxGT("Lưu Lượng");
   PROGMEM Language_Str MSG_FLOW_N                          = _UxGT("Lưu Lượng ~");
   PROGMEM Language_Str MSG_CONTROL                         = _UxGT("Điều khiển");                           // Control
-  PROGMEM Language_Str MSG_MIN                             = " " LCD_STR_THERMOMETER _UxGT(" Đa");          // min
-  PROGMEM Language_Str MSG_MAX                             = " " LCD_STR_THERMOMETER _UxGT(" Thiểu");
+  PROGMEM Language_Str MSG_MIN                             = " " LCD_STR_THERMOMETER _UxGT(" Thiểu");          // min
+  PROGMEM Language_Str MSG_MAX                             = " " LCD_STR_THERMOMETER _UxGT(" Đa");
   PROGMEM Language_Str MSG_FACTOR                          = " " LCD_STR_THERMOMETER _UxGT(" Hệ Số");       // factor
   PROGMEM Language_Str MSG_AUTOTEMP                        = _UxGT("Nhiệt độ tự động");                     // Autotemp
   PROGMEM Language_Str MSG_LCD_ON                          = _UxGT("Bật");                                  // on
@@ -294,7 +294,7 @@ namespace Language_vi {
   PROGMEM Language_Str MSG_PRINTING                        = _UxGT("Đang in...");                           // printing
   PROGMEM Language_Str MSG_PRINT_ABORTED                   = _UxGT("In đã hủy bỏ");                         // Print aborted
   PROGMEM Language_Str MSG_NO_MOVE                         = _UxGT("Không di chuyển.");                     // No move.
-  PROGMEM Language_Str MSG_KILLED                          = _UxGT("ĐÃ CHẾT. ");
+  PROGMEM Language_Str MSG_KILLED                          = _UxGT("ĐÃ NGẮT. ");
   PROGMEM Language_Str MSG_STOPPED                         = _UxGT("ĐÃ NGỪNG. ");
   PROGMEM Language_Str MSG_CONTROL_RETRACT                 = _UxGT("Rút mm");                               // Retract mm
   PROGMEM Language_Str MSG_CONTROL_RETRACT_SWAP            = _UxGT("Rút Trao.mm");                          // Swap Re.mm
@@ -331,9 +331,9 @@ namespace Language_vi {
   PROGMEM Language_Str MSG_MANUAL_STOW                     = _UxGT("Cất Đầu Dò-Z");                         // Stow Z-Probe
   PROGMEM Language_Str MSG_HOME_FIRST                      = _UxGT("Về nhà %s%s%s Trước");
   PROGMEM Language_Str MSG_ZPROBE_ZOFFSET                  = _UxGT("Đầu Dò Bù Đắp Z");                      // Probe Z Offset
-  PROGMEM Language_Str MSG_BABYSTEP_X                      = _UxGT("Nhít X");                               // Babystep X
-  PROGMEM Language_Str MSG_BABYSTEP_Y                      = _UxGT("Nhít Y");
-  PROGMEM Language_Str MSG_BABYSTEP_Z                      = _UxGT("Nhít Z");
+  PROGMEM Language_Str MSG_BABYSTEP_X                      = _UxGT("Nhích X");                               // Babystep X
+  PROGMEM Language_Str MSG_BABYSTEP_Y                      = _UxGT("Nhích Y");
+  PROGMEM Language_Str MSG_BABYSTEP_Z                      = _UxGT("Nhích Z");
   PROGMEM Language_Str MSG_ENDSTOP_ABORT                   = _UxGT("Hủy bỏ công tắc");                      // Endstop abort
   PROGMEM Language_Str MSG_HEATING_FAILED_LCD              = _UxGT("Sưởi đầu phun không thành công");       // Heating failed
   PROGMEM Language_Str MSG_HEATING_FAILED_LCD_BED          = _UxGT("Sưởi bàn không thành công");            // Bed heating failed
@@ -392,7 +392,7 @@ namespace Language_vi {
     PROGMEM Language_Str MSG_INFO_COMPLETED_PRINTS         = _UxGT("Đã hoàn thành");                        // Completed
     PROGMEM Language_Str MSG_INFO_PRINT_TIME               = _UxGT("Tổng số");                             // total
     PROGMEM Language_Str MSG_INFO_PRINT_LONGEST            = _UxGT("Dài nhất");                             // Longest
-    PROGMEM Language_Str MSG_INFO_PRINT_FILAMENT           = _UxGT("Đã ép đùn");
+    PROGMEM Language_Str MSG_INFO_PRINT_FILAMENT           = _UxGT("Vật Liệu Đã Dùng");
   #endif
   PROGMEM Language_Str MSG_INFO_MIN_TEMP                   = _UxGT("Nhiệt độ tối thiểu");                   // Min Temp
   PROGMEM Language_Str MSG_INFO_MAX_TEMP                   = _UxGT("Nhiệt độ tối đa");                      // Max temp
@@ -429,7 +429,7 @@ namespace Language_vi {
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_LOAD          = _UxGT(MSG_2_LINE("Chờ tro", "dây nhựa vào"));  // Wait for filament load
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_PURGE         = _UxGT(MSG_2_LINE("Chờ tro", "xả dây nhựa"));   // wait for filament purge
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_CONT_PURGE    = _UxGT(MSG_2_LINE("Nhấn nút để kết thúc", "xả dây nhựa")); // Click to finish dây nhựa purge
-    PROGMEM Language_Str MSG_FILAMENT_CHANGE_RESUME        = _UxGT(MSG_2_LINE("Chờ tro in", "tiếp tục...")); // Wait for print to resume
+    PROGMEM Language_Str MSG_FILAMENT_CHANGE_RESUME        = _UxGT(MSG_2_LINE("Chờ để in tiếp...")); // Wait for print to resume
   #else // LCD_HEIGHT < 4
     PROGMEM Language_Str MSG_ADVANCED_PAUSE_WAITING        = _UxGT(MSG_1_LINE("Nhấn nút để tiếp tục"));     // Click to continue
     PROGMEM Language_Str MSG_FILAMENT_CHANGE_INIT          = _UxGT(MSG_1_LINE("Xin chờ..."));
